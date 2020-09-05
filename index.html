@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta Tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Font -->
+  <link href="//db.onlinewebfonts.com/c/43372a4ce8dc3abbca31595815be7cf3?family=Atlas+Grotesk+Web+Light"
+    rel="stylesheet" type="text/css" />
+  <link href="//db.onlinewebfonts.com/c/e4d50a7badededefb0d33b088efc3f4f?family=Atlas+Grotesk+Web+Medium"
+    rel="stylesheet" type="text/css" />
+
+  <!-- Style Sheets -->
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Including Resposiveness -->
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <title>Josh - Frontend | Assignment</title>
+</head>
+
+<body>
+
+  <!-- Home : Header-->
+  <header id="home">
+    <!-- Header : Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light head conatiner-fluid">
+      
+      <!-- Logo -->
+      <nav class="navbar navbar-light logoBox">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo.png" class="logo" width="30" height="20" alt="Company's Logo" loading="lazy">
+        </a>
+      </nav>
+
+      <!-- Hamburger Menu -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-toggler"
+        aria-controls="navbar-toggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navigation Links -->
+      <div class="collapse navbar-collapse navbar-items" id="navbar-toggler">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">PRODUCTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CUSTOMERS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">NEWS + EVENTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ABOUT US<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Header : Slider -->
+    <section id="showcase" class="section-margin conatiner-fluid">
+      <div id="header-carousel" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ol class="carousel-indicators slider-buttons">
+          <li data-target="#header-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#header-carousel" data-slide-to="1"></li>
+        </ol>
+
+        <!-- Slide 1 -->
+        <div class="carousel-inner">
+          <div class="carousel-item active banner">
+            <img class="b1 full-width" src="images/banner_slider_01.jpg" alt="Banner 1">
+            <div class="carousel-caption banner-caption">
+              <h3 class="text-green">ACCUSANTIUM,<BR>ON DOLOREMQUE</h3>
+              <h5 class="font-medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt dolorum dolor
+                temporibus iste aliquid</h5>
+              <a class="learn-more-button" href="#" role="button">LEARN MORE <img src="images/arrow.png"
+                  alt="arrow"></a>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item banner">
+            <img class="b2 full-width" src="images/banner_slider_02.jpg" alt="Banner 2">
+            <div class="carousel-caption banner-caption">
+              <h3 class="text-green">ACCUSANTIUM,<BR>ON DOLOREMQUE</h3>
+              <h5 class="font-medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt dolorum dolor
+                temporibus iste aliquid</h5>
+              <a class="learn-more-button" href="#" role="button">LEARN MORE <img src="images/arrow.png"
+                  alt="arrow"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <!-- Home : Body -->
+  <main>
+    <!-- Lifestyle -->
+    <section id="lifestyle" class="section-margin conatiner-fluid section-style section-link">
+      <h5 class="text-green font-medium">THE CONNECTED LIFESTYLE</h5>
+      <hr>
+
+      <!-- Lifestyle : First Column -->
+      <div class="lifestyle-content flex-container">
+        <div class="col border-right lifestyle-first-col">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore
+            magna aliqua.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna
+            aliqua. Augue interdum velit euismod in pellentesque massa. Mauris in aliquam sem fringilla ut
+            morbi. Nam libero
+            justo laoreet sit amet cursus sit amet. justo laoreet sit amet cursus sit</p>
+          <a class="learn-more-button" href="#" role="button">LEARN MORE <img src="images/arrow.png" alt="arrow"></a>
+        </div>
+
+        <!-- Lifestyle : Second Column -->
+        <div class="flex-container lifestyle-second-col">
+
+          <!-- Sub-column 1 -->
+          <div class="border-right sub-col-1">
+            <h6 class="font-medium heading">LOREM IPSUM</h6>
+            <div class="flex-container lifestyle-options">
+
+              <!-- Connect -->
+              <div class="border-right b">
+                <img src="images/lifestyle_thmb_img01.png" alt="lifestyle: Connect">
+                <h6 class="text-green  font-medium">CONNECT</h6>
+                <p class="mr">Nec tincidunt praesent semper</p>
+                <P>Facilisi nullam vehicula ipsum</P>
+              </div>
+
+              <!-- Experience -->
+              <div>
+                <img src="images/lifestyle_thmb_img02.png" alt="lifestyle: Connect">
+                <h6 class="text-green  font-medium">EXPERIENCE</h6>
+                <p class="mr">semper feugiat nibh sed amet</p>
+                <P>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</P>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sub-Column 2 -->
+          <div class="sub-col-2">
+            <h6 class="font-medium heading">LOREM IPSUM DOLOR</h6>
+            <div class="flex-container lifestyle-options">
+
+              <!-- Discover -->
+              <div class="border-right b">
+                <img src="images/lifestyle_thmb_img03.png" alt="lifestyle: Connect">
+                <h6 class="text-green font-medium">DISCOVER</h6>
+                <p class="mr">adipiscing elit, sed do eiusmod tempor incididunt</p>
+                <p>semper feugiat nibh sed amet</p>
+              </div>
+
+              <!-- Grow -->
+              <div>
+                <img src="images/lifestyle_thmb_img04.png" alt="lifestyle: Connect">
+                <h6 class="text-green font-medium" font-medium>GROW</h6>
+                <p class="mr">adipiscing elit, sed do eiusmod tempor incididunt</p>
+                <p>semper feugiat nibh sed amet</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INFO -->
+    <section id="info" class="section-margin conatiner-fluid section-content section-link">
+      <div class="row info-block">
+
+        <!-- Customers  -->
+        <div class="col-lg-8 customers">
+          <h5 class="text-green font-medium">OUR CUSTOMERS</h5>
+          <hr>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+            et
+            dolore magna aliqua. Sed blandit libero volutpat sed cras ornare arcu dui vivamus. Nulla
+            pellentesque dignissim enim
+            sit amet venenatis&emsp;<a href="#">learn
+              more</a></p>
+
+          <!-- Customers : Images -->
+          <div class="row cust-img">
+            <div class="col-xl-4 col-md-6">
+              <img src="images/custmr_logo01.png" alt="Customer Logo 1">
+            </div>
+            <div class="col-xl-4 col-md-6">
+              <img src="images/custmr_logo02.png" alt="Customer Logo 2">
+            </div>
+            <div class="col-xl-4 col-md-6">
+              <img src="images/custmr_logo03.png" alt="Customer Logo 3">
+            </div>
+            <div class="col-xl-4 col-md-6">
+              <img src="images/custmr_logo04.png" alt="Customer Logo 4">
+            </div>
+            <div class="col-xl-4 col-md-6">
+              <img src="images/custmr_logo05.png" alt="Customer Logo 5">
+            </div>
+            <div class="col-xl-4 col-md-6">
+              <img src="images/custmr_logo06.png" alt="Customer Logo 6">
+            </div>
+          </div>
+        </div>
+
+        <!-- News -->
+        <div class="col-lg-4 news">
+          <h5 class="text-green font-medium">IN THE NEWS</h5>
+          <hr>
+
+          <!-- News 1 -->
+          <div class="news1 border-bottom">
+            <h6 class="news-heading text-green font-medium">Lorem ipsum dolor sit amet, consectetur adipis</h6>
+            <p class="font-medium">July 1, 2011</p>
+            <p>Auctor elit sed vulputate mi sit amet mauris commodo. Dolor sit amet consectetur adipiscing elit
+              duis. Cras
+              fermentum odio eu feugiat pretium nibh ipsum consequat. Mi ipsum...&emsp;<a href="#">continue reading</a>
+            </p>
+          </div>
+
+          <!-- News 2 -->
+          <div class="news2">
+            <h6 class="news-heading text-green font-medium">Lorem ipsum dolor sit amet, consectetur adipis</h6>
+            <p class="font-medium">July 1, 2011</p>
+            <p>Auctor elit sed vulputate mi sit amet mauris commodo. Dolor sit amet consectetur adipiscing elit
+              duis. Cras
+              fermentum odio eu feugiat pretium nibh ipsum consequat. Mi ipsum...&emsp;<a href="#">continue reading</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Media -->
+    <section id="media" class="section-margin conatiner-fluid section-style section-link">
+      <div class="row">
+
+        <!-- Resources : Photos -->
+        <div class="col-md-6 resources">
+          <h5 class="text-green font-medium">MEDIA RESOURCES - PHOTOS</h5>
+          <hr>
+
+          <!-- Photo Gallery -->
+          <div class="row" id="photo-gallery" data-toggle="modal" data-target="#photo-modal">
+            <div class="col-sm-6">
+              <img class="full rs-cover"
+                src="images/photo-thumbnail.png"
+                alt="Flide Phot0" data-target="#photo-carousel" data-slide-to="0">
+            </div>
+            <div class="col-sm-6 col2">
+              <img class="full rs-cover"
+                src="images/photo-thumbnail.png"
+                alt="Second Photo" data-target="#photo-carousel" data-slide-to="1">
+            </div>
+            <div class="col-sm-6">
+              <img class="full rs-cover"
+                src="images/photo-thumbnail.png"
+                alt="Third Photo" data-target="#photo-carousel" data-slide-to="2">
+            </div>
+            <div class="col-sm-6 col2">
+              <img class="full rs-cover"
+                src="images/photo-thumbnail.png"
+                alt="Fourth Photo" data-target="#photo-carousel" data-slide-to="3">
+            </div>
+          </div>
+
+          <!-- Modal : Photo -->
+          <div class="modal fade pop-up-base" id="photo-modal" tabindex="-1" role="dialog" aria-hidden="true" data-keyboard="false" data-backdrop="static">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+
+                <!-- Modal : Header -->
+                <div class="modal-header">
+                  <h6 class="text-green">THE TITLE FOR THE IMAGE WILL GO HERE</h6>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="images/close.png" alt="">
+                  </button>
+                </div>
+
+                <!-- Modal : Body -->
+                <div class="modal-body full-width">
+
+                  <!-- Photo Carousel -->
+                  <div id="photo-carousel" class="resource-pop full carousel slide">
+                    <div class="carousel-inner full">
+                      <div class="carousel-item full-height active">
+                        <img class="full rs-cover"
+                          src="https://images.unsplash.com/photo-1546853020-ca4909aef454?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+                          alt="First slide">
+                      </div>
+                      <div class="carousel-item full-height">
+                        <img class="full rs-cover"
+                          src="https://images.unsplash.com/photo-1546534505-d534e27ecb35?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+                          alt="Second slide">
+                      </div>
+                      <div class="carousel-item full-height">
+                        <img class="full rs-cover"
+                          src="https://images.unsplash.com/photo-1546111380-cfca9a43dd85?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+                          alt="Third slide">
+                      </div>
+                      <div class="carousel-item full-height">
+
+                        <img class="full rs-cover"
+                          src="https://images.unsplash.com/photo-1547288242-f3d375fc7b5f?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+                          alt="Fourth slide">
+                      </div>
+                    </div>
+
+                    <!-- Prev Button -->
+                    <a class="carousel-control-prev" href="#photo-carousel" role="button" data-slide="prev">
+                      <img src="images/prev.png" alt="left-arrow">
+                      <span class="sr-only">Previous</span>
+                    </a>
+
+                    <!-- Next Button -->
+                    <a class="carousel-control-next" href="#photo-carousel" role="button" data-slide="next">
+                      <img src="images/next.png" alt="right-arrow">
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+            et
+            dolore magna aliqua. Sed blandit libero volutpat sed cras ornare arcu&nbsp;<a href="#">continue reading</a>
+          </p>
+        </div>
+
+        <!-- Resources : Videos -->
+        <div class="col-md-6 resources">
+          <h5 class="text-green font-medium">MEDIA RESOURCES - VIDEOS</h5>
+          <hr>
+
+          <!-- Video Gallery -->
+          <div class="row" id="video-gallery" data-toggle="modal" data-target="#video-modal">
+            <div class="col-sm-6">
+              <img class="full rs-cover"
+                src="images/video-thumbnail.png"
+                alt="Second Video" data-target="#video-carousel" data-slide-to="0">
+            </div>
+            <div class="col-sm-6 col2">
+              <img class="full rs-cover"
+                src="images/video-thumbnail.png"
+                alt="Second Video" data-target="#video-carousel" data-slide-to="1">
+            </div>
+            <div class="col-sm-6">
+              <img class="full rs-cover"
+                src="images/video-thumbnail.png"
+                alt="Third Video" data-target="#video-carousel" data-slide-to="2">
+            </div>
+            <div class="col-sm-6 col2">
+              <img class="full rs-cover"
+                src="images/video-thumbnail.png"
+                alt="Fourth Video" data-target="#video-carousel" data-slide-to="3">
+            </div>
+          </div>
+
+          <!-- Modal : Video -->
+          <div class="modal fade pop-up-base" id="video-modal" tabindex="-1" role="dialog" aria-hidden="true" data-keyboard="false" data-backdrop="static">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+
+                <!-- Modal : Header -->
+                <div class="modal-header">
+                  <h6 class="text-green">THE TITLE FOR THE VIDEO WILL GO HERE</h6>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="images/close.png" alt="">
+                  </button>
+                </div>
+
+                <!-- Modal : Body -->
+                <div class="modal-body full-width">
+
+                  <!-- Video Carousel -->
+                  <div id="video-carousel" class="resource-pop full carousel slide">
+                    <div class="carousel-inner full">
+                      <div class="carousel-item full-height active">
+                        <iframe class="full rs-cover video" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                        </iframe>
+                      </div>
+                      <div class="carousel-item full-height">
+                        <iframe class="full rs-cover video" src="https://www.youtube.com/embed/BAatu6EaMHA">
+                        </iframe>
+                      </div>
+                      <div class="carousel-item full-height">
+                        <iframe class="full rs-cover video" src="https://www.youtube.com/embed/8bo5kXMAcV0">
+                        </iframe>
+                      </div>
+                      <div class="carousel-item full-height">
+                        <iframe class="full rs-cover video" src="https://www.youtube.com/embed/cNNPxcOKD4Q">
+                        </iframe>
+                      </div>
+                    </div>
+
+                    <!-- Prev Button -->
+                    <a class="carousel-control-prev" href="#video-carousel" role="button" data-slide="prev">
+                      <img src="images/prev.png" alt="left-arrow">
+                      <span class="sr-only">Previous</span>
+                    </a>
+
+                    <!-- Next Button -->
+                    <a class="carousel-control-next" href="#video-carousel" role="button" data-slide="next">
+                      <img src="images/next.png" alt="right-arrow">
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+            et
+            dolore magna aliqua. Sed blandit libero volutpat sed cras ornare arcu&nbsp;<a href="#">continue reading</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Home : Footer -->
+  <footer class="flex-container">
+    <!-- Links -->
+    <ul class="flex-container">
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">PRODUCTS</a></li>
+      <li><a href="#">CUSTOMERS</a></li>
+      <li><a href="#">NEWS + EVENTS</a></li>
+      <li><a href="#">ABOUT US</a></li>
+    </ul>
+
+    <!-- Copyright -->
+    <p>© 2011 Company Name. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <!-- Custom JS -->
+  <script src="index.js"></script>
+  <!-- Popper.js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <!-- Boootstrap js -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
